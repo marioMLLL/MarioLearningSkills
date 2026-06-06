@@ -1,0 +1,53 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Cursor (keep repo-level, ignore skill-level)
+paper-comic-summary/.cursor/
+
+# Skill output directories (generated images/reports)
+comic_output/
+*/comic_output/
+
+# Sensitive data
+.env
+*.key
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
